@@ -1,9 +1,9 @@
 # require 'less'
 
-RT = 'apps/qwe'
+RT = '/apps/qwe'
 @mnt_root = ''
 
-set :build_dir, "../#{RT}"
+set :build_dir, "..#{RT}"
 
 activate :livereload
 activate :i18n, :path => "/:locale/", :mount_at_root => false

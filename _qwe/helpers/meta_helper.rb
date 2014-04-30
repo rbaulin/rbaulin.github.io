@@ -1,5 +1,9 @@
 require 'ERB'
 
+# def mnt_root
+#   'apps/qwe/'
+# end
+
 def page_title
   # title = I18n.t(:company) #Set site title here
   data.page.title

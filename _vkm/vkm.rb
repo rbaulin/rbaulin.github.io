@@ -12,25 +12,25 @@ DEFAULTS_FILE = 'defaults.json'
 
 defaults = { # do not use dots
   'msgs' => [
-    {
-      'aps' => {
-        'alert' => 'Check out our Flappy Chick Dark Side game!'
-      },
-      'bfx' => {
-        'lnk' => 'https://google.ru',
-        'act' => 'Download',
-        'sch' => 'fb598145903601399',
-        'lng' => 'en'
-      },
-    },
-    {
-      'aps' => {
-        'alert' => 'русское сообщение!!'
-      },
-      'bfx' => {
-        'lng' => 'ru'
-      },
-    },
+    # {
+    #   'aps' => {
+    #     'alert' => 'Check out our Flappy Chick Dark Side game!'
+    #   },
+    #   'bfx' => {
+    #     'lnk' => 'https://google.ru',
+    #     'act' => 'Download',
+    #     'sch' => 'fb598145903601399',
+    #     'lng' => 'en'
+    #   },
+    # },
+    # {
+    #   'aps' => {
+    #     'alert' => 'русское сообщение!!'
+    #   },
+    #   'bfx' => {
+    #     'lng' => 'ru'
+    #   },
+    # },
   ],
 }
 # File.write(build_dir + '/' + DEFAULTS_FILE, defaults.to_plist)

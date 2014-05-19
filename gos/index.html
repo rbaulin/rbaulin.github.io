@@ -1,0 +1,3204 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <title></title>
+  <style type="text/css">code{white-space: pre;}</style>
+  <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="style.css">
+  <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+</head>
+<body>
+
+<div class="container preview-contents">
+
+<h1 id="welcome">Welcome to StackEdit!</h1>
+<p>Hello, I am your first Markdown document within <strong>StackEdit</strong><a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>. Don't delete me, I can be helpful. I can be recovered anyway in the <code>Utils</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+<table>
+<colgroup>
+<col width="13%" />
+</colgroup>
+<tbody>
+<tr class="odd">
+<td align="left">а если порусски что-нибудь <span class="math">\(вот_{такое}\)</span></td>
+</tr>
+<tr class="even">
+<td align="left">Documents</td>
+</tr>
+</tbody>
+</table>
+<p><strong>StackEdit</strong> stores your documents in your browser, which means all your documents are automatically saved locally and are accessible <strong>offline!</strong></p>
+<blockquote>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li>StackEdit is accessible offline after the application has been loaded for the first time.</li>
+<li>Your local documents are not shared between different browsers or computers.</li>
+<li>Clearing your browser's data may <strong>delete all your local documents!</strong> Make sure your documents are backed up using <strong>Google Drive</strong> or <strong>Dropbox</strong> synchronization (see <a href="#synchronization"><i class="icon-share"></i> Synchronization</a> section).</li>
+</ul>
+</blockquote>
+<h4 id="create-a-document"><i class="icon-file"></i> Create a document</h4>
+<p>You can create a new document by clicking the <i class="icon-file"></i> button in the navigation bar. It will switch from the current document to the new one.</p>
+<h4 id="switch-to-another-document"><i class="icon-folder-open"></i> Switch to another document</h4>
+<p>You can list all your local documents and switch from one to another by clicking the <i class="icon-folder-open"></i> button in the navigation bar.</p>
+<h4 id="rename-a-document"><i class="icon-pencil"></i> Rename a document</h4>
+<p>You can rename the current document by clicking the document title in the navigation bar.</p>
+<h4 id="delete-a-document"><i class="icon-trash"></i> Delete a document</h4>
+<p>You can delete the current document by clicking the <i class="icon-trash"></i> button in the navigation bar.</p>
+<h4 id="save-a-document"><i class="icon-hdd"></i> Save a document</h4>
+<p>You can save the current document to a file using the <i class="icon-hdd"></i> <code>Save as...</code> sub-menu from the <i class="icon-provider-stackedit"></i> menu.</p>
+<blockquote>
+<p><strong>Tip:</strong> See <a href="#publish-a-document"><i class="icon-share"></i> Publish a document</a> section for a description of the different output formats.</p>
+</blockquote>
+<hr />
+<h2 id="synchronization">Synchronization</h2>
+<p><strong>StackEdit</strong> can be combined with <strong>Google Drive</strong> and <strong>Dropbox</strong> to have your documents centralized in the <em>Cloud</em>. The synchronization mechanism will take care of uploading your modifications or downloading the latest version of your documents.</p>
+<blockquote>
+<p><strong>NOTE:</strong></p>
+<ul>
+<li>Full access to <strong>Google Drive</strong> or <strong>Dropbox</strong> is required to be able to import any document in StackEdit.</li>
+<li>Imported documents are downloaded in your browser and are not transmitted to a server.</li>
+<li>If you experience problems exporting documents to Google Drive, check and optionally disable browser extensions, such as Disconnect.</li>
+</ul>
+</blockquote>
+<h4 id="import-a-document"><i class="icon-download"></i> Import a document</h4>
+<p>You can import a document from the <em>Cloud</em> by going to the <i class="icon-provider-gdrive"></i> <code>Google Drive</code> or the <i class="icon-provider-dropbox"></i> <code>Dropbox</code> sub-menu and by clicking <code>Import from...</code>. Once imported, your document will be automatically synchronized with the <strong>Google Drive</strong> / <strong>Dropbox</strong> file.</p>
+<h4 id="export-a-document"><i class="icon-upload"></i> Export a document</h4>
+<p>You can export any document by going to the <i class="icon-provider-gdrive"></i> <code>Google Drive</code> or the <i class="icon-provider-dropbox"></i> <code>Dropbox</code> sub-menu and by clicking <code>Export to...</code>. Even if your document is already synchronized with <strong>Google Drive</strong> or <strong>Dropbox</strong>, you can export it to a another location. <strong>StackEdit</strong> can synchronize one document with multiple locations.</p>
+<blockquote>
+<p><strong>Tip:</strong> Using <strong>Google Drive</strong>, you can create collaborative documents to work in real time with other users. Just check the box <code>Create a real time collaborative document</code> in the dialog options when exporting to Google Drive.</p>
+</blockquote>
+<h4 id="synchronize-a-document"><i class="icon-refresh"></i> Synchronize a document</h4>
+<p>Once your document is linked to a <strong>Google Drive</strong> or a <strong>Dropbox</strong> file, <strong>StackEdit</strong> will periodically (every 3 minutes) synchronize it by downloading/uploading any modification. Any conflict will be detected, and a local copy of your document will be created as a backup if necessary.</p>
+<p>If you just have modified your document and you want to force the synchronization, click the <i class="icon-refresh"></i> button in the navigation bar.</p>
+<blockquote>
+<p><strong>NOTE:</strong> The <i class="icon-refresh"></i> button is disabled when you have no document to synchronize.</p>
+</blockquote>
+<h4 id="manage-document-synchronization"><i class="icon-refresh"></i> Manage document synchronization</h4>
+<p>Since one document can be synchronized with multiple locations, you can list and manage synchronized locations by clicking <i class="icon-refresh"></i> <code>Manage synchronization</code> in the <i class="icon-provider-stackedit"></i> menu. This will open a dialog box allowing you to add or remove synchronization links that are associated to your document.</p>
+<blockquote>
+<p><strong>NOTE:</strong> If you delete the file from <strong>Google Drive</strong> or from <strong>Dropbox</strong>, the document will no longer be synchronized with that location.</p>
+</blockquote>
+<hr />
+<h2 id="publication">Publication</h2>
+<p>Once you are happy with your document, you can publish it on different websites directly from <strong>StackEdit</strong>. As for now, <strong>StackEdit</strong> can publish on <strong>Blogger</strong>, <strong>Dropbox</strong>, <strong>Gist</strong>, <strong>GitHub</strong>, <strong>Google Drive</strong>, <strong>Tumblr</strong>, <strong>WordPress</strong> and on any SSH server.</p>
+<h4 id="publish-a-document"><i class="icon-share"></i> Publish a document</h4>
+<p>You can publish your document by going to the <i class="icon-share"></i> <code>Publish on</code> sub-menu and by choosing a website. In the dialog box, you can choose the publication format:</p>
+<ul>
+<li>Markdown, to publish the Markdown text on a website that can interpret it (<strong>GitHub</strong> for instance),</li>
+<li>HTML, to publish the document converted into HTML (on a blog for instance),</li>
+<li>Template, to have a full control of the output.</li>
+</ul>
+<blockquote>
+<p><strong>NOTE:</strong> The default template is a simple webpage wrapping your document in HTML format. You can customize it in the <code>Services</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h4 id="update-a-publication"><i class="icon-share"></i> Update a publication</h4>
+<p>After publishing, <strong>StackEdit</strong> will keep your document linked to that publish location so that you can update it easily. Once you have modified your document and you want to update your publication, click on the <i class="icon-share"></i> button in the navigation bar.</p>
+<blockquote>
+<p><strong>NOTE:</strong> The <i class="icon-share"></i> button is disabled when the document has not been published yet.</p>
+</blockquote>
+<h4 id="manage-document-publication"><i class="icon-share"></i> Manage document publication</h4>
+<p>Since one document can be published on multiple locations, you can list and manage publish locations by clicking <i class="icon-share"></i> <code>Manage publication</code> in the <i class="icon-provider-stackedit"></i> menu. This will open a dialog box allowing you to remove publication links that are associated to your document.</p>
+<blockquote>
+<p><strong>NOTE:</strong> In some cases, if the file has been removed from the website or the blog, the document will no longer be published on that location.</p>
+</blockquote>
+<hr />
+<h2 id="markdown-extra">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+</dd>
+</dl>
+<h3 id="fenced-code-blocks">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<pre><code>// Foo
+var bar = 0;</code></pre>
+<blockquote>
+<p><strong>Tip:</strong> To use <strong>Highlight.js</strong> instead of <strong>Prettify</strong>, just configure the <code>Markdown Extra</code> extension in the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="footnotes">Footnotes</h3>
+<p>You can create footnotes like this<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a>.</p>
+<h3 id="smartypants">SmartyPants</h3>
+<p>SmartyPants converts ASCII punctuation characters into &quot;smart&quot; typographic punctuation HTML entities. For example:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left"></th>
+<th align="left">ASCII</th>
+<th align="left">HTML</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Single backticks</td>
+<td align="left"><code>'Isn't this fun?'</code></td>
+<td align="left">‘Isn’t this fun?’</td>
+</tr>
+<tr class="even">
+<td align="left">Quotes</td>
+<td align="left"><code>&quot;Isn't this fun?&quot;</code></td>
+<td align="left">“Isn’t this fun?”</td>
+</tr>
+<tr class="odd">
+<td align="left">Dashes</td>
+<td align="left"><code>-- is an en-dash and --- is an em-dash</code></td>
+<td align="left">– is an en-dash and — is an em-dash</td>
+</tr>
+</tbody>
+</table>
+<h3 id="table-of-contents">Table of contents</h3>
+<p>You can insert a table of contents using the marker <code>[TOC]</code>:</p>
+<p>[TOC]</p>
+<h3 id="comments">Comments</h3>
+<p>Usually, comments in Markdown are just standard HTML comments. <!-- like this --> <strong>StackEdit</strong> extends HTML comments in order to produce useful, highlighted comments in the preview but not in your exported documents. <!--- This is very useful for collecting feedback in a collaborative document. --></p>
+<h3 id="mathjax">MathJax</h3>
+<h2 id="w">123w</h2>
+<p><span class="math">\(\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N\)</span> is via the Euler integral</p>
+<p><span class="math">\[
+\Gamma(z) = \int_0^\infty t^{z+1}e^{-t}dt\,.
+\]</span></p>
+<blockquote>
+<p><strong>Tip:</strong> Make sure you include MathJax into your publications to render mathematical expression correctly. Your page/template should include something like:</p>
+</blockquote>
+<pre><code>&lt;script type=&quot;text/javascript&quot; src=&quot;https://stackedit.io/libs/MathJax/MathJax.js?config=TeX-AMS_HTML&quot;&gt;&lt;/script&gt;</code></pre>
+<h2 id="markdown-extra-1">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-1">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-1">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-1">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-2">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-2">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-2">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-2">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-3">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-3">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-3">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-3">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn6" class="footnoteRef" id="fnref6"><sup>6</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-4">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-4">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-4">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-4">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn7" class="footnoteRef" id="fnref7"><sup>7</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-5">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-5">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-5">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-5">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn8" class="footnoteRef" id="fnref8"><sup>8</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-6">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-6">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-6">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-6">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn9" class="footnoteRef" id="fnref9"><sup>9</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-7">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-7">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-7">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-7">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn10" class="footnoteRef" id="fnref10"><sup>10</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-8">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-8">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-8">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-8">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn11" class="footnoteRef" id="fnref11"><sup>11</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-9">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-9">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-9">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-9">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn12" class="footnoteRef" id="fnref12"><sup>12</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-10">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-10">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-10">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-10">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn13" class="footnoteRef" id="fnref13"><sup>13</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-11">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-11">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-11">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-11">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn14" class="footnoteRef" id="fnref14"><sup>14</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-12">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-12">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-12">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-12">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn15" class="footnoteRef" id="fnref15"><sup>15</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-13">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-13">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-13">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-13">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn16" class="footnoteRef" id="fnref16"><sup>16</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-14">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-14">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-14">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-14">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn17" class="footnoteRef" id="fnref17"><sup>17</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-15">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-15">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-15">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-15">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn18" class="footnoteRef" id="fnref18"><sup>18</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-16">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-16">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-16">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-16">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn19" class="footnoteRef" id="fnref19"><sup>19</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-17">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-17">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-17">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-17">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn20" class="footnoteRef" id="fnref20"><sup>20</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-18">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-18">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-18">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-18">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn21" class="footnoteRef" id="fnref21"><sup>21</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-19">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-19">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-19">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-19">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn22" class="footnoteRef" id="fnref22"><sup>22</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-20">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-20">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-20">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-20">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn23" class="footnoteRef" id="fnref23"><sup>23</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-21">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-21">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-21">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-21">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn24" class="footnoteRef" id="fnref24"><sup>24</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-22">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-22">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-22">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-22">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn25" class="footnoteRef" id="fnref25"><sup>25</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-23">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-23">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-23">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-23">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn26" class="footnoteRef" id="fnref26"><sup>26</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-24">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-24">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-24">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-24">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn27" class="footnoteRef" id="fnref27"><sup>27</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-25">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-25">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-25">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-25">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn28" class="footnoteRef" id="fnref28"><sup>28</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-26">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-26">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-26">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-26">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn29" class="footnoteRef" id="fnref29"><sup>29</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-27">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-27">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-27">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-27">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn30" class="footnoteRef" id="fnref30"><sup>30</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-28">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-28">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-28">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-28">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn31" class="footnoteRef" id="fnref31"><sup>31</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-29">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-29">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-29">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-29">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn32" class="footnoteRef" id="fnref32"><sup>32</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-30">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-30">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-30">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-30">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn33" class="footnoteRef" id="fnref33"><sup>33</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-31">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-31">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-31">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-31">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn34" class="footnoteRef" id="fnref34"><sup>34</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-32">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-32">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-32">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-32">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn35" class="footnoteRef" id="fnref35"><sup>35</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-33">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-33">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-33">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-33">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn36" class="footnoteRef" id="fnref36"><sup>36</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-34">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-34">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-34">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-34">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn37" class="footnoteRef" id="fnref37"><sup>37</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-35">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-35">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-35">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-35">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn38" class="footnoteRef" id="fnref38"><sup>38</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-36">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-36">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-36">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-36">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn39" class="footnoteRef" id="fnref39"><sup>39</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-37">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-37">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-37">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-37">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn40" class="footnoteRef" id="fnref40"><sup>40</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-38">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-38">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-38">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-38">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn41" class="footnoteRef" id="fnref41"><sup>41</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-39">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-39">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-39">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-39">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn42" class="footnoteRef" id="fnref42"><sup>42</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-40">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-40">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-40">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-40">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn43" class="footnoteRef" id="fnref43"><sup>43</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<h2 id="markdown-extra-41">Markdown Extra</h2>
+<p><strong>StackEdit</strong> supports <strong>Markdown Extra</strong>, which extends <strong>Markdown</strong> syntax with some nice features.</p>
+<blockquote>
+<p><strong>Tip:</strong> You can disable any <strong>Markdown Extra</strong> feature in the <code>Extensions</code> tab of the <i class="icon-cog"></i> <code>Settings</code> dialog.</p>
+</blockquote>
+<h3 id="tables-41">Tables</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for tables:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="left">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="left">1600 USD</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="left">12 USD</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="left">1 USD</td>
+</tr>
+</tbody>
+</table>
+<p>You can specify column alignment with one or two colons:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Item</th>
+<th align="right">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Computer</td>
+<td align="right">1600 USD</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="left">Phone</td>
+<td align="right">12 USD</td>
+<td align="center">12</td>
+</tr>
+<tr class="odd">
+<td align="left">Pipe</td>
+<td align="right">1 USD</td>
+<td align="center">234</td>
+</tr>
+</tbody>
+</table>
+<h3 id="definition-lists-41">Definition Lists</h3>
+<p><strong>Markdown Extra</strong> has a special syntax for definition lists too:</p>
+<p>Term 1 Term 2 : Definition A : Definition B</p>
+<dl>
+<dt>Term 3</dt>
+<dd><p>Definition C</p>
+</dd>
+<dd><p>Definition D</p>
+</dd>
+</dl>
+<blockquote>
+<p>part of definition D</p>
+</blockquote>
+<h3 id="fenced-code-blocks-41">Fenced code blocks</h3>
+<p>GitHub's fenced code blocks<a href="#fn44" class="footnoteRef" id="fnref44"><sup>44</sup></a> are also supported with <strong>Prettify</strong> syntax highlighting:</p>
+<blockquote>
+<p><strong>NOTE:</strong> You can find more information:</p>
+<ul>
+<li>about <strong>Markdown</strong> syntax <a href="http://daringfireball.net/projects/markdown/syntax" title="Markdown">here</a>,</li>
+<li>about <strong>Markdown Extra</strong> extension <a href="https://github.com/jmcmanus/pagedown-extra" title="Pagedown Extra">here</a>,</li>
+<li>about <strong>LaTeX</strong> mathematical expressions <a href="http://meta.math.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference">here</a>,</li>
+<li>about <strong>Prettify</strong> syntax highlighting <a href="https://code.google.com/p/google-code-prettify/">here</a>,</li>
+<li>about <strong>Highlight.js</strong> syntax highlighting <a href="http://highlightjs.org/">here</a>.</li>
+</ul>
+</blockquote>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p><a href="https://stackedit.io/">StackEdit</a> is a full-featured, open-source Markdown editor based on PageDown, the Markdown library used by Stack Overflow and the other Stack Exchange sites.<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p>Here is the <em>text</em> of the <strong>footnote</strong>.<a href="#fnref3">↩</a></p></li>
+<li id="fn4"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref4">↩</a></p></li>
+<li id="fn5"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref5">↩</a></p></li>
+<li id="fn6"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref6">↩</a></p></li>
+<li id="fn7"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref7">↩</a></p></li>
+<li id="fn8"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref8">↩</a></p></li>
+<li id="fn9"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref9">↩</a></p></li>
+<li id="fn10"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref10">↩</a></p></li>
+<li id="fn11"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref11">↩</a></p></li>
+<li id="fn12"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref12">↩</a></p></li>
+<li id="fn13"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref13">↩</a></p></li>
+<li id="fn14"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref14">↩</a></p></li>
+<li id="fn15"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref15">↩</a></p></li>
+<li id="fn16"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref16">↩</a></p></li>
+<li id="fn17"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref17">↩</a></p></li>
+<li id="fn18"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref18">↩</a></p></li>
+<li id="fn19"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref19">↩</a></p></li>
+<li id="fn20"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref20">↩</a></p></li>
+<li id="fn21"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref21">↩</a></p></li>
+<li id="fn22"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref22">↩</a></p></li>
+<li id="fn23"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref23">↩</a></p></li>
+<li id="fn24"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref24">↩</a></p></li>
+<li id="fn25"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref25">↩</a></p></li>
+<li id="fn26"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref26">↩</a></p></li>
+<li id="fn27"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref27">↩</a></p></li>
+<li id="fn28"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref28">↩</a></p></li>
+<li id="fn29"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref29">↩</a></p></li>
+<li id="fn30"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref30">↩</a></p></li>
+<li id="fn31"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref31">↩</a></p></li>
+<li id="fn32"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref32">↩</a></p></li>
+<li id="fn33"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref33">↩</a></p></li>
+<li id="fn34"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref34">↩</a></p></li>
+<li id="fn35"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref35">↩</a></p></li>
+<li id="fn36"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref36">↩</a></p></li>
+<li id="fn37"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref37">↩</a></p></li>
+<li id="fn38"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref38">↩</a></p></li>
+<li id="fn39"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref39">↩</a></p></li>
+<li id="fn40"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref40">↩</a></p></li>
+<li id="fn41"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref41">↩</a></p></li>
+<li id="fn42"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref42">↩</a></p></li>
+<li id="fn43"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref43">↩</a></p></li>
+<li id="fn44"><p><strong>GitHub Flavored Markdown</strong> (GFM) is supported by StackEdit.<a href="#fnref44">↩</a></p></li>
+</ol>
+</div>
+
+</div>
+
+</body>
+</html>

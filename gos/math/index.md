@@ -4,7 +4,7 @@
 $\left\{\matrix{{u_{tt} =a^{2} u_{xx} } \cr {u(x,0)=\varphi (x)} \cr {u_{t} (x,0)=\psi (x)}}\right. \left(*\right)$  Уравнение характеристики: $dx^{2} -a^{2} dt^{2} =0\Rightarrow $ $\left\{\matrix{{dx-adt=0} \cr {dx+adt=0}}\right. \Rightarrow $ $\left\{\matrix{{x-at=C1} \cr {x+at=C2}}\right. $
 
 Сделаем замену переменных:
-
+ 
 $\left\{\matrix{{\xi =x-at} \cr {\eta =x+at}}\right. \Rightarrow u_{\xi \eta } =0$
 $${\partial u\over \partial x} ={\partial u\over \partial \xi } {\partial \xi \over \partial x} +{\partial u\over \partial \eta } {\partial \eta \over \partial x} ={\partial u\over \partial \xi } +{\partial u\over \partial \eta } ; {\partial u\over \partial t} =a({\partial u\over \partial \xi } +{\partial u\over \partial \eta } )$$ 
 $${\partial ^{2} u\over \partial x^{2} } ={\partial ^{2} u\over \partial \xi ^{2} } +2{\partial ^{2} u\over \partial \xi \partial \eta } +{\partial ^{2} u\over \partial \eta ^{2} } ;   {\partial ^{2} u\over \partial t^{2} } =a^{2} ({\partial ^{2} u\over \partial \xi ^{2} } -2{\partial ^{2} u\over \partial \xi \partial \eta } +{\partial ^{2} u\over \partial \eta ^{2} } )$$ 

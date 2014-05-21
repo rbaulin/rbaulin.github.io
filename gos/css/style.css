@@ -1220,3 +1220,42 @@ body.pdf{font-family:"DejaVu Sans"}body.pdf code,body.pdf pre{font-family:"DejaV
 .preview-contents {
 	max-width: 900px;
 }
+
+.pagebreak { page-break-before: always; } 
+/*<span class="pagebreak"> </span>*/
+
+/*@page {
+  @bottom-right {
+    content: counter(page) " of " counter(pages);
+  }
+}
+*/
+
+#pageFooter {
+	display: none;
+}
+
+@media print  {
+	h1 {
+		font-size: 18px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	#content {
+	    display: table;
+	}
+
+	#pageFooter {
+	    display: table-footer-group;
+	}
+
+	#pageFooter:after {
+	    counter-increment: page;
+	    content: counter(page);
+	}
+
+}
+
+
+

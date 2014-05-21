@@ -2,7 +2,7 @@
 --------------
 
 $\left\{\matrix{{u_{tt} =a^{2} u_{xx} } \cr {u(x,0)=\varphi (x)} \cr {u_{t} (x,0)=\psi (x)}}\right. \left(*\right)$  Уравнение характеристики: $dx^{2} -a^{2} dt^{2} =0\Rightarrow $ $\left\{\matrix{{dx-adt=0} \cr {dx+adt=0}}\right. \Rightarrow $ $\left\{\matrix{{x-at=C1} \cr {x+at=C2}}\right. $
-
+ 
 Сделаем замену переменных:
  
 $\left\{\matrix{{\xi =x-at} \cr {\eta =x+at}}\right. \Rightarrow u_{\xi \eta } =0$

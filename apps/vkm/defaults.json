@@ -1,6 +1,9 @@
 {
     "com.bfx.cri": 0,
     "rules": [
+    	{
+    		"cii": 1,
+    	},
 	    {
     		"cii": 10,
     		"lng": "en"

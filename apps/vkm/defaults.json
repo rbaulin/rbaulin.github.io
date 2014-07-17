@@ -3,7 +3,8 @@
     "rules": [
 	    {
     		"cii": 10,
-    		"lng": "en"
+    		"lng": "en",
+    		"skp": 1
     	}
     ]
 }

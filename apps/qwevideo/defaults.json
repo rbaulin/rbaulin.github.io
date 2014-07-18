@@ -10,11 +10,14 @@
         "soundowl.com"
       ],
       "cii": 132,
-      "cri": 200
+      "cri": 200,
+      "dflt": {
+        "mscplr": 1
+      }
     },
-	{
+	  {
       "disabledMimes":[],
       "loc": "RU"
-	}
+	  }
   ]
 }

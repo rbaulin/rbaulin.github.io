@@ -1,39 +1,12 @@
 {
-  "msgs": [
+  "rules": [,
     {
-      "aps": {
-        "alert": "Dear users! Downloads are disabled until we resolve all legal issues. Sorry!"
+      "motd":{
+          "msg": "Мы только что выпустили новый загрузчик музыки! (сегодня бесплатно)",
+          "lnk": "http://itunes.apple.com/app/id893246605",
+          "act": "Скачать",
       },
-      "bfx": {
-        "act": "OK",
-        "frc": 1,
-        "new": 1,
-        "loc": "US"
-      }
-    }
-  ],
-  "rules": [
-    {
-      "blacklistedHosts": [
-        "youtube.com",
-        "googlevideo.com",
-        "soundcloud.com",
-        "mp3skull.com",
-        "mp3monkey.com",
-        "soundowl.com"
-      ]
-    },
-    {
-      "allowedHosts": [
-        "none"
-      ],
-      "loc": "US"
-    },
-    {
-      "disableitfs": 1
-    },
-    {
-      "noupgrade": 1
+      "sch": "fmd"
     }
   ],
   "com.bfx.motd": "",

@@ -1,0 +1,32 @@
+{
+  "rules": [
+    {
+      "blacklistedHosts": [
+        "youtube.com",
+        "googlevideo.com",
+        "soundcloud.com",
+        "mp3skull.com",
+        "mp3monkey.com",
+        "soundowl.com"
+      ],
+      "cii": 132,
+      "cri": 200
+    },
+	  {
+      "disabledMimes":[],
+      "loc": "RU"
+	  }
+  ],
+  "msgs": [
+      {
+          "aps": {
+              "alert": "Мы только что выпустили новый загрузчик музыки! (сегодня бесплатно)"
+          },
+          "bfx": {
+              "lnk": "http://itunes.apple.com/app/id893246605",
+              "act": "Скачать",
+              "sch": "fmd"
+          }
+      }
+  ]
+}

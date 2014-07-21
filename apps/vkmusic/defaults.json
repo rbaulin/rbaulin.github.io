@@ -1,4 +1,13 @@
 {
     "rules": [
+    {
+    	"motd": {
+    		"msg": "ВКонтакте Музыка снова в App Store!",
+    		"lnk": "https://itunes.apple.com/app/id549439059",
+    		"act": "Скачать"
+		},
+    	"sch": "vkm",
+    	"loc": "RU"
+    }
     ]
 }

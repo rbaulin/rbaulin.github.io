@@ -8,15 +8,6 @@
     		},
         	"sch": "fmd",
             "loc": "RU"
-        },
-        {
-            "motd": {
-                "msg": "Вам нравится приложение? Пожалуйста, уделите минутку и оставьте свой отзыв!",
-                "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=549439059",
-                "act": "5 звезд",
-                "idc": "rt23jul"
-            },
-            "loc": "RU"
         }
     ]
 }

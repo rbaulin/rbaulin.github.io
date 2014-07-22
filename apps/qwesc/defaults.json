@@ -8,6 +8,14 @@
     		},
         	"sch": "vk3038877",
             "loc": "RU"
+        },
+        {
+            "motd": {
+                "msg": "Dear users, we made the app competely free for YOU! Please help us to get discovered - rate us.",
+                "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=893246605",
+                "act": "5 stars"
+            },
+            "loc": "US"
         }
     ]
 }

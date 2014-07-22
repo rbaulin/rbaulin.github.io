@@ -1,12 +1,11 @@
 {
     "rules": [
         {
-        	"motd": {
-        		"msg": "По вашим запросам! QWE загрузчик с браузером.",
-        		"lnk": "https://itunes.apple.com/app/id670370768",
-        		"act": "Скачать"
-    		},
-        	"sch": "qwev",
+            "motd": {
+                "msg": "Дорогие пользователи, вам нравится приложение? Пожалуйста, уделите минутку и оставьте свой отзыв!",
+                "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=893246605",
+                "act": "5 звезд"
+            },
             "loc": "RU"
         }
     ]

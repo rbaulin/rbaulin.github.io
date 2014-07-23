@@ -7,7 +7,7 @@
                 "act": "5 звезд",
                 "idc": "rt22jul"
             },
-            "loc": "ru"
+            "loc": "RU"
         },
         {
             "motd": {
@@ -52,7 +52,7 @@
                 "act": "5つ星",
                 "idc": "rt22jul"
             },
-            "loc": "ja"
+            "loc": "JA"
         },
         {
             "motd": {
@@ -61,7 +61,7 @@
                 "act": "5颗星",
                 "idc": "rt22jul"
             },
-            "loc": "zh"
+            "loc": "ZH"
         }
     ]
 }

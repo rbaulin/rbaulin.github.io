@@ -52,7 +52,7 @@
                 "act": "5つ星",
                 "idc": "rt22jul"
             },
-            "loc": "JA"
+            "loc": "JP"
         },
         {
             "motd": {
@@ -61,7 +61,7 @@
                 "act": "5颗星",
                 "idc": "rt22jul"
             },
-            "loc": "ZH"
+            "loc": "CN"
         }
     ]
 }

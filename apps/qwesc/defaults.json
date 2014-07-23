@@ -7,11 +7,11 @@
                 "act": "5 звезд",
                 "idc": "rt22jul"
             },
-            "loc": "RU"
+            "loc": "ru"
         },
         {
             "motd": {
-                "msg": "Si vous aimez utiliser QWE SoundCloud, n'oubliez pas de voter sur l'App Store. Cela ne prend qu'une minute. Merci d'avance pour votre soutien !",
+                "msg": "Si vous aimez utiliser QWE, n'oubliez pas de voter sur l'App Store. Cela ne prend qu'une minute. Merci d'avance pour votre soutien !",
                 "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=893246605",
                 "act": "5 étoiles",
                 "idc": "rt22jul"
@@ -20,7 +20,7 @@
         },
         {
             "motd": {
-                "msg": "Wenn dir QWE SoundCloud gefällt, würdest Du es bitte bewerten? Dies wird nicht länger als eine Minute dauern. Danke für die Unterstützung!",
+                "msg": "Wenn dir QWE gefällt, würdest Du es bitte bewerten? Dies wird nicht länger als eine Minute dauern. Danke für die Unterstützung!",
                 "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=893246605",
                 "act": "5 Sterne",
                 "idc": "rt22jul"
@@ -29,7 +29,7 @@
         },
         {
             "motd": {
-                "msg": "Se ti piace usare QWE SoundCloud, perché non gli dai un voto? Non ci vorrà più di un minuto. Grazie per il tuo supporto!",
+                "msg": "Se ti piace usare QWE, perché non gli dai un voto? Non ci vorrà più di un minuto. Grazie per il tuo supporto!",
                 "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=893246605",
                 "act": "5 stars",
                 "idc": "rt22jul"
@@ -38,12 +38,30 @@
         },
         {
             "motd": {
-                "msg": "Si te gusta QWE SoundCloud, ¿podrías escribirnos una reseña? No te tomará más de un minuto. ¡Gracias por tu apoyo!",
+                "msg": "Si te gusta QWE, ¿podrías escribirnos una reseña? No te tomará más de un minuto. ¡Gracias por tu apoyo!",
                 "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=893246605",
                 "act": "5 estrellas",
                 "idc": "rt22jul"
             },
             "loc": "ES"
+        },
+        {
+            "motd": {
+                "msg": "QWE をお使いいただき大変ありがとうございます。もしよろしければ1分程で済みますので、このアプリの評価をお願いします。ご協力感謝いたします！",
+                "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=893246605",
+                "act": "5つ星",
+                "idc": "rt22jul"
+            },
+            "loc": "ja"
+        },
+        {
+            "motd": {
+                "msg": "如果您觉得“QWE”很好用，可否为其评一个分数？评分过程只需花费很少的时间。感谢您的支持！",
+                "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=893246605",
+                "act": "5颗星",
+                "idc": "rt22jul"
+            },
+            "loc": "zh"
         }
     ]
 }

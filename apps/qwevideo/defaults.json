@@ -1,15 +1,6 @@
 {
   "rules": [
     {
-        "motd": {
-            "msg": "Дорогие пользователи, вам нравится приложение? Пожалуйста, уделите минутку и оставьте свой отзыв!",
-            "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=670370768",
-            "act": "5 звезд",
-            "idc": "rt24jul"
-        },
-        "loc": "RU"
-    },
-    {
       "blacklistedHosts": [
         "youtube.com",
         "googlevideo.com",

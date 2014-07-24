@@ -2,7 +2,8 @@
     "com.bfx.cri": 0,
     "rules": [
 	    {
-    		"cii": 10,
+	    	"cri": 0,
+    		"cii": 60,
     		"lng": "en",
             "sfa": 1
     	}

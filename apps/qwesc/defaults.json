@@ -2,14 +2,6 @@
     "rules": [
         {
             "motd": {
-                "msg": "Dear users, are you enjoying QWE? Please help us to get discovered - rate us.",
-                "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=893246605",
-                "act": "5 stars"
-            },
-            "loc": "US"
-        },
-        {
-            "motd": {
                 "msg": "Дорогие пользователи, вам нравится приложение? Пожалуйста, уделите минутку и оставьте свой отзыв!",
                 "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=893246605",
                 "act": "5 звезд",

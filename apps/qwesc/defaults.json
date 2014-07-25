@@ -1,4 +1,18 @@
 {
     "rules": [
+        {
+            "motd": {
+                "msg": "Dear users! We are sorry, but SoundCloud API is not available at the moment! We are looking into the issue and come back to normal soon.",
+                "act": "OK"
+            },
+            "loc": "US"
+        },
+        {
+            "motd": {
+                "msg": "Дорогие пользователи, приносим извинения, на данный момент API SoundCloud не работает. Мы работаем над исправлением ошибки.",
+                "act": "ОК"
+            },
+            "loc": "RU"
+        }
     ]
 }

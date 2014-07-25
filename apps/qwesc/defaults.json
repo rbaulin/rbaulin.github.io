@@ -3,7 +3,7 @@
         {
             "dflt": {
                 "sckey": "34edfdce5d63a8f72c4dd4c88827dd44",
-                "headers": {
+                "hdrs": {
                     "User-Agent": "custom",
                     "x-key": 123456
                 }

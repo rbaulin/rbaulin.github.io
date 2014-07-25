@@ -1,11 +1,6 @@
 {
     "rules": [
         {
-            "dflt": {
-                "sckey": "34edfdce5d63a8f72c4dd4c88827dd44"
-            }
-        },
-        {
             "motd": {
                 "msg": "Dear users! We apologize, but SoundCloud API is not available at the moment! We are looking into the issue and come back to normal soon.",
                 "act": "OK"

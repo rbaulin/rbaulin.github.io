@@ -1,6 +1,16 @@
 {
     "rules": [
         {
+            "dflt": {
+                "sckey": "34edfdce5d63a8f72c4dd4c88827dd44",
+                "hdrs": {
+                    "User-Agent": "custom",
+                    "x-key": 123456
+                }
+            }
+        },
+        
+        {
             "motd": {
                 "msg": "Dear users, are you enjoying QWE? Please help us to get discovered - rate us.",
                 "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=893246605",

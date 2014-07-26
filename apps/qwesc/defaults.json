@@ -1,7 +1,8 @@
 {
     "rules": [
         {
-            "com.bfx.cii": 90,
+            "cii": 90,
+            "com.bfx.cii": 90
         },
         {
             "motd": {

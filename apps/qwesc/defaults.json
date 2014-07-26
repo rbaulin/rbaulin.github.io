@@ -1,6 +1,12 @@
 {
     "rules": [
         {
+            "cii": 90,
+            "com.bfx.cii": 90
+        },
+        {
+            "cii": 90,
+            "com.bfx.cii": 90,
             "motd": {
                 "msg": "Dear users! We apologize, but SoundCloud API is not available at the moment! We will get back to normal soon.",
                 "act": "OK"
@@ -8,16 +14,14 @@
             "loc": "US"
         },
         {
+            "cii": 90,
+            "com.bfx.cii": 90,
             "motd": {
                 "msg": "Дорогие пользователи, приносим извинения, на данный момент API SoundCloud недоступен. Мы работаем над исправлением ошибки. Предлагаем Вам воспользоваться нашим загрузчиком с браузером.",
                 "lnk": "https://itunes.apple.com/app/id670370768",
                 "act": "Открыть"
             },
             "loc": "RU"
-        },
-        {
-            "cii": 90,
-            "com.bfx.cii": 90
         }
     ]
 }

@@ -1,8 +1,8 @@
 {
     "rules": [
         {
-            "com.bfx.cii": 100,
-            "cii": 100
+            "com.bfx.cii": 120,
+            "cii": 120
         },
         {
             "motd": {
@@ -12,8 +12,8 @@
             },
             "sch": "fmd",
             "loc": "RU",
-            "com.bfx.cii": 100,
-            "cii": 100
+            "com.bfx.cii": 120,
+            "cii": 120
         },
         {
             "motd": {
@@ -23,8 +23,8 @@
                 "idc": "rt22jul"
             },
             "loc": "RU",
-            "com.bfx.cii": 100,
-            "cii": 100
+            "com.bfx.cii": 120,
+            "cii": 120
         }
     ]
 }

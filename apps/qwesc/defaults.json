@@ -8,7 +8,7 @@
             "cii": 90,
             "com.bfx.cii": 90,
             "motd": {
-                "msg": "Dear users! We apologize, but SoundCloud API is not available at the moment! We will get back to normal soon.",
+                "msg": "Dear users! We apologize, SoundCloud is not accessible at the moment. We are working hard to resolve the issue. We will notify you as we get back to normal. Thank you for staying with us!",
                 "act": "OK"
             },
             "loc": "US"

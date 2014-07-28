@@ -1,12 +1,12 @@
 {
     "rules": [
         {
-            "cii": 90,
-            "com.bfx.cii": 90
+            "cii": 130,
+            "com.bfx.cii": 130
         },
         {
-            "cii": 90,
-            "com.bfx.cii": 90,
+            "cii": 130,
+            "com.bfx.cii": 130,
             "motd": {
                 "msg": "Dear users! We have figured out an issue. Please update to the latest version and enjoy the music!",
                 "lnk": "https://itunes.apple.com/app/id893246605",

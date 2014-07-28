@@ -25,6 +25,14 @@
             },
             "loc": "RU",
             "ver": 100
+        },
+
+        {
+            "motd": {
+                "msg": "Dear users, like the update? We got everything fixed. Please help us to get discovered - rate us.",
+                "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=893246605",
+                "act": "5 stars"
+            }
         }
     ]
 }

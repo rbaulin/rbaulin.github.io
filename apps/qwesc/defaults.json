@@ -8,20 +8,23 @@
             "cii": 90,
             "com.bfx.cii": 90,
             "motd": {
-                "msg": "Dear users! We apologize, SoundCloud is not accessible at the moment. We are working hard to resolve the issue. We will notify you as we get back to normal. Thank you for staying with us!",
-                "act": "OK"
+                "msg": "Dear users! We have figured out an issue. Please update to the latest version and enjoy the music!",
+                "lnk": "https://itunes.apple.com/app/id893246605",
+                "act": "Update"
             },
-            "loc": "US"
+            "loc": "US",
+            "ver": 100
         },
         {
             "cii": 90,
             "com.bfx.cii": 90,
             "motd": {
-                "msg": "Дорогие пользователи, приносим извинения, на данный момент API SoundCloud недоступен. Мы работаем над исправлением ошибки. Предлагаем Вам воспользоваться нашим загрузчиком с браузером.",
-                "lnk": "https://itunes.apple.com/app/id670370768",
-                "act": "Открыть"
+                "msg": "Дорогие пользователи, SoundCloud снова работает! Пожалуйста, обновитесь до последней версии.",
+                "lnk": "https://itunes.apple.com/app/id893246605",
+                "act": "Обновить"
             },
-            "loc": "RU"
+            "loc": "RU",
+            "ver": 100
         }
     ]
 }

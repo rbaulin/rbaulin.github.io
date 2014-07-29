@@ -6,6 +6,7 @@
             },
             "ssl": 0
         },
+
         {
             "cii": 130,
             "com.bfx.cii": 130
@@ -43,7 +44,8 @@
                 "idc": "rt29jul"
             },
             "loc": "RU",
-            "cii": 90
+            "cii": 90,
+            "rnc": 1
         },
         {
             "motd": {
@@ -53,7 +55,8 @@
                 "idc": "rt29jul"
             },
             "loc": "US",
-            "cii": 130
+            "cii": 130,
+            "rnc": 1
         },
         {
             "motd": {
@@ -62,7 +65,8 @@
                 "act": "5 étoiles",
                 "idc": "rt29jul"
             },
-            "loc": "FR"
+            "loc": "FR",
+            "rnc": 1
         },
         {
             "motd": {
@@ -71,7 +75,8 @@
                 "act": "5 Sterne",
                 "idc": "rt29jul"
             },
-            "loc": "DE"
+            "loc": "DE",
+            "rnc": 1
         },
         {
             "motd": {
@@ -80,7 +85,8 @@
                 "act": "5 stars",
                 "idc": "rt29jul"
             },
-            "loc": "IT"
+            "loc": "IT",
+            "rnc": 1
         },
         {
             "motd": {
@@ -89,7 +95,8 @@
                 "act": "5 estrellas",
                 "idc": "rt29jul"
             },
-            "loc": "ES"
+            "loc": "ES",
+            "rnc": 1
         },
         {
             "motd": {
@@ -98,7 +105,8 @@
                 "act": "5つ星",
                 "idc": "rt29jul"
             },
-            "loc": "JP"
+            "loc": "JP",
+            "rnc": 1
         },
         {
             "motd": {
@@ -107,7 +115,8 @@
                 "act": "5颗星",
                 "idc": "rt29jul"
             },
-            "loc": "CN"
+            "loc": "CN",
+            "rnc": 1
         }
     ]
 }

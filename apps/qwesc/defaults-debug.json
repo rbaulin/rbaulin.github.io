@@ -166,6 +166,33 @@
     ]
 }
 
+,
+
+        {
+            "cii": 130,
+            "com.bfx.cii": 130,
+            "motd": {
+                "msg": "Dear users! We have fixes an issue as promised. Please update to the latest version and enjoy the music!",
+                "lnk": "https://itunes.apple.com/app/id893246605",
+                "act": "Update"
+            },
+            "loc": "US",
+            "ver": 100
+        },
+        {
+            "cii": 90,
+            "com.bfx.cii": 90,
+            "motd": {
+                "msg": "Дорогие пользователи, мы все поправили! Пожалуйста, обновитесь до последней версии.",
+                "lnk": "https://itunes.apple.com/app/id893246605",
+                "act": "Обновить"
+            },
+            "loc": "RU",
+            "ver": 100
+        }
+
+
+        
 
 "rules": [
 

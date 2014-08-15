@@ -14,7 +14,9 @@
     },
 	  {
       "disabledMimes":[],
-      "loc": "RU"
+      "loc": "RU",
+      "cii": 132,
+      "cri": 200
 	  }
   ]
 }

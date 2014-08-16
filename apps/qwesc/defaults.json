@@ -21,16 +21,12 @@
                 "act": "5 stars",
                 "idc": "rt15aug"
             },
-            "loc": "US"
-        },
-        {
-            "motd": {
-                "msg": "Дорогие пользователи, вам нравится обновление? Пожалуйста, уделите минутку и оставьте свой отзыв!",
-                "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=893246605",
-                "act": "5 звезд",
-                "idc": "rt15aug"
-            },
-            "loc": "RU"
+            "NOT": {
+                "OR":[
+                    {"loc": "US"},
+                    {"loc": "RU"}
+                ]
+            }
         }
     ]
 }

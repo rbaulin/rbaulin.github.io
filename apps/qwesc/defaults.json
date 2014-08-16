@@ -11,6 +11,12 @@
         {
             "cii": 130,
             "com.bfx.cii": 130
+        },
+        
+        {
+            "cii": 90,
+            "com.bfx.cii": 90,
+            "loc": "RU"
         }
     ]
 }

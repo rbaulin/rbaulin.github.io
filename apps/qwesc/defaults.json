@@ -11,22 +11,6 @@
         {
             "cii": 130,
             "com.bfx.cii": 130
-        },
-
-
-        {
-            "motd": {
-                "msg": "Dear users, are you enjoying QWE update? Please help us to get discovered - rate us.",
-                "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=893246605",
-                "act": "5 stars",
-                "idc": "rt15aug"
-            },
-            "NOT": {
-                "OR":[
-                    {"loc": "US"},
-                    {"loc": "RU"}
-                ]
-            }
         }
     ]
 }

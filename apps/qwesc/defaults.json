@@ -35,7 +35,7 @@
                 "act": "Download"
             },
             "NOT": {
-                "AND": [
+                "OR": [
                     {"loc": "RU"},
                     {"tz": -25200}
                 ]

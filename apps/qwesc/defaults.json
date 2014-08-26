@@ -17,6 +17,29 @@
             "cii": 90,
             "com.bfx.cii": 90,
             "loc": "RU"
+        },
+
+        {
+            "motd": {
+                "msg": "Дорогие пользователи, к сожалению, правообладатели хотят закрыть наше приложение. Вы еще можете успеть скачать обновление!",
+                "lnk": "https://itunes.apple.com/app/id891946006",
+                "act": "Скачать"
+            },
+            "loc": "RU",
+        },
+
+        {
+            "motd": {
+                "msg": "Dear users, unfortunately copyright holders want to shutdown our app. Please update while it is not too late.",
+                "lnk": "https://itunes.apple.com/app/id891946006",
+                "act": "Download"
+            },
+            "NOT": {
+                "OR": [
+                    {"loc": "RU"},
+                    {"tz": -25200}
+                ]
+            }
         }
     ]
 }

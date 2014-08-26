@@ -25,7 +25,7 @@
                 "lnk": "https://itunes.apple.com/app/id891946006",
                 "act": "Скачать"
             },
-            "loc": "RU",
+            "loc": "RU"
         },
 
         {
@@ -34,7 +34,12 @@
                 "lnk": "https://itunes.apple.com/app/id891946006",
                 "act": "Download"
             },
-            "NOT": {"loc": "RU"}
+            "NOT": {
+                "AND": [
+                    {"loc": "RU"},
+                    {"tz": -25200}
+                ]
+            }
         }
     ]
 }

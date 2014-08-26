@@ -34,10 +34,7 @@
                 "lnk": "https://itunes.apple.com/app/id891946006",
                 "act": "Download"
             },
-            "AND": [
-                {"NOT": {"loc": "RU"}},
-                {"NOT": {"tz": -25200}}
-            ]
+            "NOT": {"loc": "RU"}
         }
     ]
 }

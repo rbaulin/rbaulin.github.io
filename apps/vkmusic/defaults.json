@@ -1,8 +1,9 @@
 {
     "rules": [
         {
-            "com.bfx.cii": 120,
-            "cii": 120
+            "com.bfx.cii": 90,
+            "cii": 90,
+            "math":"dash"
         },
         {
             "motd": {
@@ -10,9 +11,9 @@
                 "lnk": "https://itunes.apple.com/app/id891946006",
                 "act": "Скачать"
             },
-            "loc": "RU",
-            "com.bfx.cii": 120,
-            "cii": 120
+            "lang": "RU",
+            "com.bfx.cii": 90,
+            "cii": 90
         }
     ]
 }

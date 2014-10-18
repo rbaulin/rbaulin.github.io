@@ -3,17 +3,8 @@
         {
             "com.bfx.cii": 90,
             "cii": 90,
-            "math":"dash"
-        },
-        {
-            "motd": {
-                "msg": "Уважаемые пользователи, скачивайте музыку без ограничений!",
-                "lnk": "https://itunes.apple.com/app/id891946006",
-                "act": "Скачать"
-            },
-            "lang": "RU",
-            "com.bfx.cii": 90,
-            "cii": 90
+            "math":"dash",
+            "ver": 30001
         }
     ]
 }

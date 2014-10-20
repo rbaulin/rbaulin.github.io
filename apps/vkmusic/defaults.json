@@ -2,9 +2,7 @@
     "rules": [
         {
             "com.bfx.cii": 90,
-            "cii": 90,
-            "math":"dash",
-            "ver": 30001
+            "cii": 90
         }
     ]
 }

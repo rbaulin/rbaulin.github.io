@@ -10,7 +10,7 @@
         "soundowl.com"
       ],
       "disabledMimes":[
-      	"audio/mpeg"
+      	"public.mp3"
       ],
       "bver": 114
     },

@@ -9,14 +9,16 @@
         "mp3monkey.com",
         "soundowl.com"
       ],
-      "cii": 132,
-      "cri": 200
+      "disabledMimes":[
+      	"audio/mpeg"
+      ],
+      "bver": 114
     },
-	  {
+    {
       "disabledMimes":[],
       "loc": "RU",
       "cii": 132,
       "cri": 200
-	  }
+     }
   ]
 }

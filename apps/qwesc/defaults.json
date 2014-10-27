@@ -16,6 +16,11 @@
         },
 
         {
+            "cii": 0,
+            "bid": "com.boomfox.qwescpro"
+        },
+
+        {
             "cii": 99,
             "com.bfx.cii": 99,
             "ver": 102

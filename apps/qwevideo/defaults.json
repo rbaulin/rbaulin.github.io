@@ -23,7 +23,7 @@
     {
       "blacklistedHosts": [],
       "disabledMimes":[],
-      "loc": "RU",
+      "NOT": { "loc": "US"},
       "cii": 132,
       "cri": 200
      }

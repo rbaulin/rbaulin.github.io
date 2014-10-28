@@ -9,14 +9,31 @@
         "mp3monkey.com",
         "soundowl.com"
       ],
-      "cii": 132,
-      "cri": 200
+      "disabledMimes":[
+      	"public.mp3"
+      ],
+      "bver": 1142
     },
+<<<<<<< HEAD
   	{
+=======
+        
+        {
+            "cii": 0,
+            "bid": "com.boomfox.qwevideo"
+        },
+
+    {
+      "blacklistedHosts": [],
+>>>>>>> ec79f47251f18ac07c845f35a13ae05df2da1273
       "disabledMimes":[],
-      "loc": "RU",
+      "NOT": { "loc": "US"},
       "cii": 132,
       "cri": 200
+<<<<<<< HEAD
 	 }
+=======
+     }
+>>>>>>> ec79f47251f18ac07c845f35a13ae05df2da1273
   ]
 }

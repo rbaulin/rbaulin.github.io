@@ -5,17 +5,25 @@
                 "sckey": "f23ce77b27bfdcdd8b04e8845959d564"
             },
             "ssl": 0,
-            "skp": 1
+            "skp": 1,
+            "ver": 102
         },
         
         {
             "brw": 1,
-            "tz": -25200
+            "tz": -25200,
+            "ver": 102
+        },
+
+        {
+            "cii": 0,
+            "bid": "com.boomfox.qwescpro"
         },
 
         {
             "cii": 99,
-            "com.bfx.cii": 99
+            "com.bfx.cii": 99,
+            "ver": 102
         }
     ]
 }

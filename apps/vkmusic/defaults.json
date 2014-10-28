@@ -3,7 +3,8 @@
         {
             "com.bfx.cii": 90,
             "cii": 90,
-            "hurl": "watt"
+            "hurl": "watt",
+            "ver": 30002
         }
     ]
 }

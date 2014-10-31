@@ -1,0 +1,22 @@
+{
+  "rules": [
+    {
+      "blacklistedHosts": [
+        "youtube.com",
+        "googlevideo.com",
+        "soundcloud.com",
+        "mp3skull.com",
+        "mp3monkey.com",
+        "soundowl.com"
+      ],
+      "disabledMimes":[
+      	"public.mp3"
+      ]
+    },
+        
+    {
+        "cii": 0,
+        "bid": "com.boomfox.downloads"
+    }
+  ]
+}

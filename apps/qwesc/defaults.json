@@ -2,11 +2,10 @@
     "rules": [
         {
             "dflt": {
-                "sckey": "2Kf29hhC5mgWf62708A"
+                "sckey": "XSGYiNkhWe60LlcYKwdw"
             },
             "ssl": 0,
-            "skp": 1,
-            "ver": 102
+            "skp": 1
         },
         
         {
@@ -16,8 +15,7 @@
 
         {
             "cii": 99,
-            "com.bfx.cii": 99,
-            "ver": 102
+            "com.bfx.cii": 99
         }
     ]
 }

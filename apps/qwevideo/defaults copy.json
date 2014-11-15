@@ -1,4 +1,19 @@
 {
+  ,
+
+    {
+        "motd": {
+            "msg": "Дорогие пользователи, вам нравится обновление? Пожалуйста, уделите минутку и оставьте свой отзыв!",
+            "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=670370768",
+            "act": "5 звезд",
+            "idc": "rt24jul"
+        },
+        "bid": "com.boomfox.qwevideolite",
+        "loc": "RU",
+        "rnc": 1,
+        "ver": 1143
+    }
+    
   "rules": [
     {
       "blacklistedHosts": [

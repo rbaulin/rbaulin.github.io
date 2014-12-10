@@ -17,6 +17,12 @@
     {
         "cii": 0,
         "bid": "com.boomfox.downloads"
+    },
+
+    {
+      "blacklistedHosts": [],
+      "disabledMimes":[],
+      "NOT": { "loc": "US"}
     }
   ]
 }

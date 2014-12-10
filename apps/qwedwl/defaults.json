@@ -13,6 +13,12 @@
       	"public.mp3"
       ]
     },
+
+    {
+      "dflt": {
+          "prourl": "itms-apps://itunes.apple.com/app/id934430928"
+      }
+    },
         
     {
         "cii": 0,

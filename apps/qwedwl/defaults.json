@@ -22,7 +22,20 @@
     {
       "blacklistedHosts": [],
       "disabledMimes":[],
-      "NOT": { "loc": "US"}
+      "NOT": { "loc": "US" }
+    },
+
+    {
+        "motd": {
+            "msg": "Поставьте нам, пожалуйста, высокую оценку и оставьте отзыв, чтобы БЕСПЛАТНО снять ограничения с загрузок!",
+            "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=935520103",
+            "act": "5 звезд",
+            "idc": "rt10dec"
+        },
+        "loc": "RU",
+        "fgc": 1,
+        "rnc": 2,
+        "tme": 30
     }
   ]
 }

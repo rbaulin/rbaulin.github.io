@@ -34,8 +34,7 @@
         "lnk": "https://itunes.apple.com/app/id935520103",
         "act": "Скачать"
       },
-      "loc": "RU",
-      "sch": "qwedwl"
+      "loc": "RU"
     },
     {
       "motd": {
@@ -43,7 +42,6 @@
         "lnk": "https://itunes.apple.com/app/id935520103",
         "act": "Download"
       },
-      "sch": "qwedwl",
       "NOT": {
         "OR":[
           {"loc": "US"},

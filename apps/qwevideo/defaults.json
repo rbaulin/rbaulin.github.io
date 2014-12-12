@@ -12,13 +12,13 @@
       "disabledMimes":[
       	"public.mp3"
       ],
-      "bver": 1143
+      "bver": 1150
     },
 
     {
       "blacklistedHosts": [],
       "disabledMimes":[],
-      "NOT": { "loc": "US"}
+      "NOT": { "loc": "US" }
 	  },
         
     {

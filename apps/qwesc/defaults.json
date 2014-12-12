@@ -1,11 +1,15 @@
 {
   "rules": [
     {
+      "skp": 1,
+      "NOT": { "tzo" : -25200 }
+    },
+
+    {
         "dflt": {
             "sckey": "XSGYiNkhWe60LlcYKwdw"
         },
-        "ssl": 0,
-        "skp": 1
+        "ssl": 0
     },
     
     {

@@ -14,20 +14,19 @@
       ],
       "bver": 1143
     },
-        
-    {
-        "cii": 110
-    },
-
-    {
-        "cii": 0,
-        "bid": "com.boomfox.qwevideo"
-    },
 
     {
       "blacklistedHosts": [],
       "disabledMimes":[],
       "NOT": { "loc": "US"}
-	  }
+	  },
+        
+    {
+        "cii": 110
+    },
+    {
+        "cii": 0,
+        "bid": "com.boomfox.qwevideo"
+    }
   ]
 }

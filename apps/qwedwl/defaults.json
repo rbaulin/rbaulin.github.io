@@ -11,8 +11,7 @@
       ],
       "disabledMimes":[
       	"public.mp3"
-      ],
-      "cii": 90
+      ]
     },
 
     {
@@ -20,16 +19,19 @@
           "prourl": "itms-apps://itunes.apple.com/app/id934430928"
       }
     },
-        
-    {
-        "cii": 0,
-        "bid": "com.boomfox.downloads"
-    },
 
     {
       "blacklistedHosts": [],
       "disabledMimes":[],
       "NOT": { "loc": "US" }
+    },
+
+    {
+      "cii": 90
+    },
+    {
+      "cii": 0,
+      "bid": "com.boomfox.downloads"
     }
   ]
 }

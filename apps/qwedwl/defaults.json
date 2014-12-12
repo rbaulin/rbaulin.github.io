@@ -11,7 +11,8 @@
       ],
       "disabledMimes":[
       	"public.mp3"
-      ]
+      ],
+      "cii": 90
     },
 
     {
@@ -29,18 +30,6 @@
       "blacklistedHosts": [],
       "disabledMimes":[],
       "NOT": { "loc": "US" }
-    },
-
-    {
-        "motd": {
-            "msg": "Поставьте нам, пожалуйста, высокую оценку и оставьте отзыв, чтобы БЕСПЛАТНО снять ограничения с загрузок!",
-            "lnk": "itms-apps://itunes.apple.com/WebObjects/MZStore.woa/wa/viewContentsUserReviews?type=Purple+Software&id=935520103",
-            "act": "5 звезд",
-            "idc": "rt10dec"
-        },
-        "loc": "RU",
-        "rnc": 2,
-        "wfi": 1
     }
   ]
 }

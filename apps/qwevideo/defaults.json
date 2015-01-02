@@ -12,7 +12,8 @@
       "disabledMimes":[
       	"public.mp3"
       ],
-      "bver": 1150
+      "ytw": "We apologize, but downloads from YouTube are disabled due to YouTube Terms of Service.",
+      "bver": 1151
     },
 
     {
@@ -24,6 +25,7 @@
     {
         "cii": 110
     },
+    
     {
         "cii": 0,
         "bid": "com.boomfox.qwevideo"

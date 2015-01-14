@@ -19,7 +19,8 @@
     {
       "blacklistedHosts": [],
       "disabledMimes":[],
-      "NOT": { "loc": "US" }
+      "NOT": { "loc": "US" },
+      "ver": 1152
 	  },
         
     {

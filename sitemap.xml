@@ -6,12 +6,22 @@
   </url>
   <url>
     <loc>https://rbaulin.github.io/ru-ios-job</loc>
-      <changefreq>monthly</changefreq>
+      <changefreq>daily</changefreq>
       <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://rbaulin.github.io/writing</loc>
-      <changefreq>monthly</changefreq>
+    <loc>https://rbaulin.github.io/ru-unity-job</loc>
+      <changefreq>daily</changefreq>
+      <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://rbaulin.github.io/ru-ux-job</loc>
+      <changefreq>daily</changefreq>
       <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://rbaulin.github.io/ru-game-design-job</loc>
+      <changefreq>daily</changefreq>
+      <priority>0.5</priority>
   </url>
 </urlset>
